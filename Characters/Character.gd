@@ -8,6 +8,8 @@ const Friction: float  = 0.15
 export(int) var acceleration : int = 40
 export(int) var max_speed : int = 150
 
+onready var animated_sprite: AnimatedSprite = get_node("AnimatedSprite")
+
 var mov_direction: Vector2 = Vector2.ZERO
 var velocity: Vector2 = Vector2.ZERO
 
