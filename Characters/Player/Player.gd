@@ -11,10 +11,10 @@ func _process(_delta: float) -> void:
 func get_input() -> void:
 	mov_direction = Vector2.ZERO
 	if Input.is_action_pressed("ui_down"):
-		mov.direction += Vector2.DOWN
+		mov_direction += Vector2.DOWN
 	if Input.is_action_pressed("ui_left"):
-		mov.direction += Vector2.LEFT
+		mov_direction += Vector2.LEFT
 	if Input.is_action_pressed("ui_right"):
-		mov.direction += Vector2.RIGHT
+		mov_direction += Vector2.RIGHT
 	if Input.is_action_pressed("ui_up"):
-		mov.direction += Vector2.UP
+		mov_direction += Vector2.UP
