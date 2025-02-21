@@ -37,6 +37,8 @@ window/size/height=270
 window/size/test_width=1280
 window/size/test_height=720
 window/dpi/allow_hidpi=true
+mouse_cursor/custom_image="res://Assets/v1.1 dungeon crawler 16X16 pixel pack/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/165.png"
+mouse_cursor/custom_image_hotspot=Vector2( 16, 16 )
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 

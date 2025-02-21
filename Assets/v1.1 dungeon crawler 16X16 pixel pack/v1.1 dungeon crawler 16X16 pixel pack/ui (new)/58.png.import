@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/crosshair_3.png-19eca31273e7ce9aff8eba9683b499f5.stex"
+path="res://.import/58.png-313686ad573e74734187e5dbbf491b67.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/v1.1 dungeon crawler 16X16 pixel pack/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/crosshair_3.png"
-dest_files=[ "res://.import/crosshair_3.png-19eca31273e7ce9aff8eba9683b499f5.stex" ]
+source_file="res://Assets/v1.1 dungeon crawler 16X16 pixel pack/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/58.png"
+dest_files=[ "res://.import/58.png-313686ad573e74734187e5dbbf491b67.stex" ]
 
 [params]
 
