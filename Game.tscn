@@ -68,3 +68,13 @@ position = Vector2( 12.6787, 14.2706 )
 position = Vector2( 233.584, 72.7349 )
 acceleration = 20
 max_speed = 50
+
+[node name="Flying-bat2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 174.124, 42.1129 )
+acceleration = 20
+max_speed = 50
+
+[node name="Flying-bat3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 151.232, 67.0862 )
+acceleration = 20
+max_speed = 50
