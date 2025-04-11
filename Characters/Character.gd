@@ -5,7 +5,8 @@ class_name Character, "res://Assets/v1.1 dungeon crawler 16X16 pixel pack/v1.1 d
 
 const Friction: float  = 0.15
 
-export(int) var hp: int = 2
+export(int) var hp: int = 2 setget set_hp
+signal hp_changed(new_hp)
 
 export(int) var acceleration : int = 40
 export(int) var max_speed : int = 150
@@ -26,10 +27,14 @@ func move() -> void:
 	velocity = velocity.clamped(max_speed)
 	
 func take_damage(dam: int, dir: Vector2, force: int) -> void:
-	hp-=dam
+	self.hp-=dam
 	if hp>0:
 		state_machine.set_state(state_machine.states.hurt)
 		velocity+=dir*force
 	else:
 		state_machine.set_state(state_machine.states.dead)
 		velocity+=dir*force*2
+
+func set_hp(new_hp: int) -> void:
+	hp = new_hp
+	emit_signal("hp_changed", new_hp)
